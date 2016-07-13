@@ -858,6 +858,16 @@ th {
   padding: 40px 5% 60px 5%;
 }
 
+.content-sidebar .content {
+  width: 60%;
+  margin-right: 5%;
+}
+
+.content-sidebar .sidebar {
+  width: 35%;
+  margin-right: 0;
+}
+
 .full-width-content .content {
 	width: 100%;
 	padding-bottom:80px;
