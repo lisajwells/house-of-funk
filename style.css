@@ -367,23 +367,24 @@ h6 {
 .colors a {
 	color:#333;
 	}
+.homeImage {
+	clear:both;
+
+	}
 .overlay {
 	position:absolute;
 	z-index:9999;
 	text-align:center;
 	background-color:#eee;
-	opacity:.7;
+	opacity:.8;
 	color:#000;
-	font-size:28px;
+	font-size:32px;
 	font-family: "kepler-std",serif;
-	width:19.5%;
-	padding-top:2px;
+	width:32%;
+	padding-top:4px;
 	}
 #shop {
 	padding-top:100px;
-	}
-.shopText {
-	padding-left:20px;
 	}
 
 embed,
@@ -903,13 +904,13 @@ th {
 .two-sixths,
 .two-thirds {
 	float: left;
-	margin-left: 2.564102564102564%;
+	margin-left: 3.564102564102564%;
 }
 
 .one-half,
 .three-sixths,
 .two-fourths {
-	width: 48.717948717948715%;
+	width: 46.717948717948715%;
 }
 
 .one-third,
@@ -1044,10 +1045,14 @@ th {
 	line-height:1.1;
 }
 
+
 .entry-title a,
 .sidebar .widget-title a {
 	color: #000;
 }
+.entry-title a {
+	padding-top:40px;
+	}
 
 .entry-title a:hover {
 	color: #0085da;
@@ -1708,6 +1713,7 @@ div .book-featured-text-banner {
 .entry {
 	padding: 0px;
 	position: relative;
+	margin-bottom:40px;
 }
 
 .entry:after {
@@ -1896,7 +1902,7 @@ p.entry-meta {
 .footer-widgets .wrap {
 	background-color: #2E2E32;
 	clear: both;
-	padding: 80px 16%;
+	padding: 80px 10% 80px 16%;
 	
 }
 
@@ -1941,6 +1947,7 @@ p.entry-meta {
 
 .footer-widgets-3 {
 	float: left;
+	width:310px;
 }
 
 
