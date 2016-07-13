@@ -144,9 +144,9 @@ function wcs_woo_remove_reviews_tab($tabs) {
 }
 
 //* [Site-wide] Modify the Excerpt read more link
-add_filter('excerpt_more', 'new_excerpt_more');
-function new_excerpt_more($more) {
-	return '... <a class="more-link" href="' . get_permalink() . '">Read More</a>';
+add_filter('excerpt_more', 'hof_excerpt_more');
+function hof_excerpt_more($more) {
+	return '... <a class="more-link button" href="' . get_permalink() . '">Read More</a>';
 }
 
 //* Remove comment form allowed tags
@@ -199,8 +199,8 @@ genesis_register_sidebar( array(
  *
  * @return null Return early if not a post.
  */
-add_action('genesis_entry_footer', 'faf_prev_next_post_nav');
-function faf_prev_next_post_nav() {
+add_action('genesis_entry_footer', 'hof_prev_next_post_nav');
+function hof_prev_next_post_nav() {
 
 	if ( ! is_singular( 'post' ) )
 		return;
