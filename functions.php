@@ -192,6 +192,15 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the front page 5 section.', 'author' ),
 ) );
 
+// Blog sidebar for blog home and posts
+genesis_register_sidebar( array(
+	'id'		=> 'blog-sidebar',
+	'name'		=> __( 'Blog Sidebar', 'author' ),
+	'description'	=> __( 'This is the sidebar for blog home and posts.', 'author' ),
+) );
+
+
+
 /**
  * Display links to previous and next post, from a single post.
  *
@@ -222,4 +231,7 @@ function hof_prev_next_post_nav() {
 	echo '</div>';
 
 }
+
+//* Force content-sidebar layout setting
+add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );
 
