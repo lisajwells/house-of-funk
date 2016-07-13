@@ -244,7 +244,7 @@ add_action( 'get_header', 'child_sidebar_logic' );
  * @link http://dreamwhisperdesigns.com/?p=1034
  */
 function child_sidebar_logic() {
-	if ( is_archive() || is_singular('post') ) {
+	if ( is_home() || is_archive() || is_singular('post') ) {
 		//* Use content-sidebar layout on these pages
 		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );
 
