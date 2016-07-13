@@ -2020,19 +2020,19 @@ p.entry-meta {
 		width: 840px;
 	}
 
-	.footer-widgets-1,
+/*	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3,
-	.sidebar-primary {
+*/	.sidebar-primary {
 		width: 300px;
 	}
 
 	.footer-widgets-1 {
 		margin-right: 40px;
 	}
-	.footer-widgets-3 {
+	/*.footer-widgets-3 {
 	padding-top:40px;
-	}
+	}*/
 	.overlay {
 	font-size:28px;
 	width:19%;
@@ -2103,14 +2103,12 @@ p.entry-meta {
 	}
 
 	.footer-widgets-1,
-	.footer-widgets-2,
-	.footer-widgets-3 {
-		width: 260px;
-	}
+  .footer-widgets-2,
+  .footer-widgets-3,
+  .footer-widgets-4 {
+    width: 47%;
+  }
 
-	.footer-widgets-1 {
-		margin-right: 30px;
-	}
 	.transy {
 		width:50%;
 		margin-left:33%;
