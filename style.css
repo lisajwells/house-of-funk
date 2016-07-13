@@ -854,6 +854,10 @@ th {
 	margin:20px;
 	}
 
+.content-sidebar .content-sidebar-wrap {
+  padding: 40px 5% 60px 5%;
+}
+
 .full-width-content .content {
 	width: 100%;
 	padding-bottom:80px;

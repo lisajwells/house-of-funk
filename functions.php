@@ -232,6 +232,30 @@ function hof_prev_next_post_nav() {
 
 }
 
-//* Force content-sidebar layout setting
-add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );
+//* Force content-sidebar layout setting sitewide
+// add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );
+
+//* add sidebar to blog
+add_action( 'get_header', 'child_sidebar_logic' );
+/**
+ * Swap in a different sidebar instead of the default sidebar.
+ *
+ * @author Jennifer Baumann
+ * @link http://dreamwhisperdesigns.com/?p=1034
+ */
+function child_sidebar_logic() {
+	if ( is_archive() || is_singular('post') ) {
+		//* Use content-sidebar layout on these pages
+		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );
+
+		remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
+		add_action( 'genesis_sidebar', 'child_get_blog_sidebar' );
+	}
+}
+
+function child_get_blog_sidebar() {
+	dynamic_sidebar( 'blog-sidebar' );
+}
+
+
 
