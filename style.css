@@ -1939,6 +1939,14 @@ p.entry-meta {
   margin-right: 6%;
 }
 
+.footer-widgets .footer-widgets-2 {
+  width: 15%;
+}
+
+.footer-widgets .footer-widgets-3 {
+  width: 25%;
+}
+
 .footer-widgets .widget-area:last-of-type {
     margin-right: 0;
 }
