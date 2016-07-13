@@ -143,7 +143,11 @@ function wcs_woo_remove_reviews_tab($tabs) {
  return $tabs;
 }
 
-
+//* [Site-wide] Modify the Excerpt read more link
+add_filter('excerpt_more', 'new_excerpt_more');
+function new_excerpt_more($more) {
+	return '... <a class="more-link" href="' . get_permalink() . '">Read More</a>';
+}
 
 //* Remove comment form allowed tags
 add_filter( 'comment_form_defaults', 'author_remove_comment_form_allowed_tags' );
