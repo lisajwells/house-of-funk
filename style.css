@@ -1791,6 +1791,7 @@ p.entry-meta {
 
 .adjacent-entry-pagination {
 	margin-bottom: 0;
+  margin-top: 40px;
 }
 
 .archive-pagination {

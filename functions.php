@@ -192,4 +192,34 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the front page 5 section.', 'author' ),
 ) );
 
+/**
+ * Display links to previous and next post, from a single post.
+ *
+ * @since 1.5.1
+ *
+ * @return null Return early if not a post.
+ */
+add_action('genesis_entry_footer', 'faf_prev_next_post_nav');
+function faf_prev_next_post_nav() {
+
+	if ( ! is_singular( 'post' ) )
+		return;
+
+	genesis_markup( array(
+		'html5'   => '<div %s>',
+		'xhtml'   => '<div class="navigation">',
+		'context' => 'adjacent-entry-pagination',
+	) );
+
+	echo '<div class="pagination-previous alignleft">';
+	previous_post_link('<div class="previous-post-link">&laquo; %link</div>', '<strong>%title</strong>', FALSE, '34');
+	echo '</div>';
+
+	echo '<div class="pagination-next alignright">';
+	next_post_link('<div class="next-post-link">%link &raquo;</div>', '<strong>%title</strong>', FALSE, '34');
+	echo '</div>';
+
+	echo '</div>';
+
+}
 
