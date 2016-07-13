@@ -1910,14 +1910,17 @@ p.entry-meta {
 	color: #ccc;
 	border-bottom:1px solid #333;
 }
+
 .footer-widgets li {
 	color: #ccc;
 }
+
 .footer-widgets .widget-title {
 	font-size:28px;
 	text-transform: none;
 	color:#F1F1F1;
-	}
+}
+
 .footer-widgets .wrap a {
 	color: #ccc;
 }
@@ -1930,7 +1933,17 @@ p.entry-meta {
 	color: #0E829C;
 }
 
-.footer-widgets-1,
+.footer-widgets .widget-area {
+  float: left;
+  width: 20%;
+  margin-right: 6%;
+}
+
+.footer-widgets .widget-area:last-of-type {
+    margin-right: 0;
+}
+
+/*.footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
 	width: 240px;
@@ -1948,7 +1961,7 @@ p.entry-meta {
 .footer-widgets-3 {
 	float: left;
 	width:310px;
-}
+}*/
 
 
 /* # Site Footer
