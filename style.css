@@ -56,6 +56,7 @@
 	- Home
 	- Flexible Widgets
 	- Entries
+  - Portfolios
 	- Entry Meta
 	- After Entry
 	- Pagination
@@ -1774,6 +1775,26 @@ div .book-featured-text-banner {
 .entry-content code {
 	background-color: #000;
 	color: #f9f9f9;
+}
+
+/* ## Portfolios
+--------------------------------------------- */
+
+.port-thumbs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.port-thumb {
+    float: left;
+    width: 18%;
+    margin-right: 2.5%;
+}
+
+.port-thumb:last-of-type {
+  margin-right: 0;
 }
 
 /* ## Entry Meta
