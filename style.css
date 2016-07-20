@@ -1784,6 +1784,21 @@ div .book-featured-text-banner {
   display: block !important;
 }
 
+.soliloquy-container .soliloquy-next,
+.soliloquy-container .soliloquy-prev {
+    top: 100% !important;
+    margin-top: 16px !important;
+}
+
+.soliloquy-container .soliloquy-prev {
+    left: auto;
+    right: 48px !important;
+}
+
+.soliloquy-container .soliloquy-next {
+    right: 0 !important;
+}
+
 .port-thumbs:after {
   content: "";
   display: table;
