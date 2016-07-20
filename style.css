@@ -1805,14 +1805,14 @@ div .book-featured-text-banner {
   clear: both;
 }
 
-.port-thumb {
+.port-thumbs a {
     float: left;
     margin-right: 2.5%;
     position: relative;
     width: 18%;
 }
 
-.port-thumb:last-of-type {
+.port-thumbs a:last-of-type {
   margin-right: 0;
 }
 
