@@ -1780,21 +1780,38 @@ div .book-featured-text-banner {
 /* ## Portfolios
 --------------------------------------------- */
 
+.soliloquy-container .soliloquy-controls-direction {
+  display: block !important;
+}
+
 .port-thumbs:after {
   content: "";
   display: table;
   clear: both;
 }
 
-
 .port-thumb {
     float: left;
-    width: 18%;
     margin-right: 2.5%;
+    position: relative;
+    width: 18%;
 }
 
 .port-thumb:last-of-type {
   margin-right: 0;
+}
+
+.port-thumb-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: "kepler-std",serif;
+  font-size: 16px;
+  padding: 6px 8px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
 }
 
 /* ## Entry Meta
