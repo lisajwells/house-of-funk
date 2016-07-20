@@ -256,3 +256,6 @@ function child_sidebar_logic() {
 function child_get_blog_sidebar() {
 	dynamic_sidebar( 'blog-sidebar' );
 }
+
+
+
