@@ -1791,7 +1791,7 @@ div .book-featured-text-banner {
 }
 
 .soliloquy-container .soliloquy-prev {
-    left: auto;
+    left: auto !important;
     right: 48px !important;
 }
 
