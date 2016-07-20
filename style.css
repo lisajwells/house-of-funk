@@ -1799,6 +1799,10 @@ div .book-featured-text-banner {
     right: 0 !important;
 }
 
+.page-template-page-portfolio .full-width-content .content {
+    padding-bottom: 40px;
+}
+
 .port-thumbs:after {
   content: "";
   display: table;
