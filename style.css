@@ -1837,6 +1837,11 @@ div .book-featured-text-banner {
   width: 100%;
 }
 
+/* current page */
+.page-id-4568 .port-thumbs a:nth-child(1) .port-thumb .port-thumb-title {
+  background-color: rgba(14, 130, 156, 0.5);
+}
+
 /* ## Entry Meta
 --------------------------------------------- */
 
