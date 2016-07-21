@@ -1838,7 +1838,11 @@ div .book-featured-text-banner {
 }
 
 /* current page */
-.page-id-4568 .port-thumbs a:nth-child(1) .port-thumb .port-thumb-title {
+.page-id-4560 .port-thumbs a:nth-child(1) .port-thumb-title,
+.page-id-4568 .port-thumbs a:nth-child(2) .port-thumb-title,
+.page-id-4570 .port-thumbs a:nth-child(3) .port-thumb-title,
+.page-id-4572 .port-thumbs a:nth-child(4) .port-thumb-title,
+.page-id-4574 .port-thumbs a:nth-child(5) .port-thumb-title {
   background-color: rgba(14, 130, 156, 0.5);
 }
 
