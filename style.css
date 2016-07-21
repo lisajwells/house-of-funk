@@ -1997,7 +1997,7 @@ p.entry-meta {
 .footer-widgets .wrap {
 	background-color: #2E2E32;
 	clear: both;
-	padding: 80px 8% 80px 8%;
+  padding: 80px 6% 80px 6%;
 }
 
 .footer-widgets {
@@ -2045,11 +2045,8 @@ p.entry-meta {
 }
 
 .footer-widgets .footer-widgets-4 {
+  margin-right: 0;
   width: 30%;
-}
-
-.footer-widgets .widget-area:last-of-type {
-    margin-right: 0;
 }
 
 /* # Site Footer
@@ -2181,11 +2178,22 @@ p.entry-meta {
 		margin: 0 -60px;
 	}
 
-	.footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .footer-widgets-4 {
-    width: 47%;
+	.footer-widgets .footer-widgets-1,
+  .footer-widgets .footer-widgets-2,
+  .footer-widgets .footer-widgets-3 {
+    width: 29.333333%;
+  }
+
+  .footer-widgets .footer-widgets-3 {
+    margin-right: 0;
+  }
+
+  .footer-widgets .footer-widgets-4 {
+    clear: both;
+    float: none;
+    /*margin: 0 auto;*/
+    margin-top: 4%;
+    width: 50%;
   }
 
 	.transy {
