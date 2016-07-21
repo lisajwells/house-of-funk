@@ -1779,6 +1779,11 @@ div .book-featured-text-banner {
 /* ## Portfolios
 --------------------------------------------- */
 
+.page-template-page-portfolio .content-sidebar-wrap {
+    padding: 40px 8% 60px 8%;
+    margin: 20px;
+}
+
 .soliloquy-container .soliloquy-controls-direction {
   display: block !important;
 }
