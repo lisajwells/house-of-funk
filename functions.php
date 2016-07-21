@@ -47,6 +47,7 @@ add_theme_support( 'genesis-connect-woocommerce' );
 
 //* Add new image sizes
 add_image_size( 'featured-content', 800, 800, TRUE );
+add_image_size( 'hf_portfolio_nav', 220, 220, TRUE );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
