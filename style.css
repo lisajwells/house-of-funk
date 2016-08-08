@@ -1838,9 +1838,12 @@ img.alignright,
     background: rgba(107, 155, 163, 0.4) url(images/soliloquy-arrows/left.png) no-repeat scroll 48% 50% !important;
 }
 
-.soliloquy-container .soliloquy-next:hover,
+.soliloquy-container .soliloquy-next:hover {
+    background: rgba(107, 155, 163, 1) url(images/soliloquy-arrows/right.png) no-repeat scroll 52% 50% !important;
+}
+
 .soliloquy-container .soliloquy-prev:hover {
-  opacity: 1;
+    background: rgba(107, 155, 163, 1) url(images/soliloquy-arrows/left.png) no-repeat scroll 48% 50% !important;
 }
 
 .page-template-page-portfolio .content {
