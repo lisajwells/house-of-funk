@@ -551,6 +551,7 @@ div.ppt {
 }
 
 .other-product-link {
+  clear: left;
   display: block;
 }
 
