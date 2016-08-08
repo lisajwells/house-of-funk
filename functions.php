@@ -27,6 +27,8 @@ function author_enqueue_scripts_styles() {
 
 }
 
+//remove VFB styling
+add_filter( 'visual-form-builder-css', '__return_false' );
 
 //change woocommerce 'out of stock' product status to any text status you want
 add_filter('woocommerce_get_availability', 'custom_get_availability');
@@ -232,6 +234,13 @@ function hof_prev_next_post_nav() {
 	echo '</div>';
 
 }
+
+//* Change excerpt length
+function custom_excerpt_length( $length ) {
+return 20;
+}
+add_filter( ‘excerpt_length’, ‘custom_excerpt_length’, 999 );
+
 
 //* Force content-sidebar layout setting sitewide
 // add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );
