@@ -1823,12 +1823,19 @@ img.alignright,
 
 .soliloquy-container .soliloquy-next,
 .soliloquy-container .soliloquy-prev {
-    background: rgba(107, 155, 163, 0.4) url(images/soliloquy-arrows/left.png) no-repeat scroll 50% 50% !important;
     /*background-color:#6b9ba3 !important;*/
     border-radius: 50%;
     height: 60px !important;
     /*opacity: .4;*/
     width: 60px !important;
+}
+
+.soliloquy-container .soliloquy-next {
+    background: rgba(107, 155, 163, 0.4) url(images/soliloquy-arrows/right.png) no-repeat scroll 52% 50% !important;
+}
+
+.soliloquy-container .soliloquy-prev {
+    background: rgba(107, 155, 163, 0.4) url(images/soliloquy-arrows/left.png) no-repeat scroll 48% 50% !important;
 }
 
 .soliloquy-container .soliloquy-next:hover,
