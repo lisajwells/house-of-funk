@@ -916,6 +916,7 @@ input[type="submit"].small,
 .portfolio-button {
     margin: -5px auto;
     display: inherit;
+    max-width: 100%;
     width: 300px;
     padding:5px;
 }
@@ -2505,6 +2506,10 @@ p.entry-meta {
 		margin: 0 -40px;
 	}
 
+  .photo-credit-portfolio {
+    margin: -11px 0 0 0;
+  }
+
   .port-thumbs a {
     float: none;
     margin-bottom: 2.5%;
@@ -2846,6 +2851,12 @@ p.entry-meta {
     padding: 2px;
     width: 100%;
 	}
+
+  .portfolio-button {
+    margin: 12px auto -5px auto;
+  }
+
+
 	.cover {
 	width:98%;
 	margin:20px 1% 0px 1%;
@@ -2907,6 +2918,10 @@ p.entry-meta {
 
   .cover-press img {
     max-width: 180px;
+  }
+
+  .photo-credit-portfolio {
+    margin: -15px 0 0 0;
   }
 
   .port-thumbs a {
