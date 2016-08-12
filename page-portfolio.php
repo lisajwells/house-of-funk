@@ -21,10 +21,10 @@ function hf_add_portfolio_thumbs() {
             </div>
         </div></a>
 
-        <a href="<?php echo get_site_url(); ?>/portfolio/moderne-updated"><div class="port-thumb">
+        <a href="<?php echo get_site_url(); ?>/portfolio/modern-updated"><div class="port-thumb">
             <img class="port-thumb-img" nopin="nopin" src="http://staging.houseoffunk.flywheelsites.com/wp-content/uploads/2016/07/moderne-updated.jpg">
             <div class="port-thumb-title">
-                Moderne Updated
+                Modern Updated
             </div>
         </div></a>
 

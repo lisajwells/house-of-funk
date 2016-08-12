@@ -338,6 +338,11 @@ h6 {
 	margin:-76px 0px 0px 30px;
 	color:#fff;
 	}
+.photo-credit-portfolio {
+	font-size:11px;
+	margin:-10px 0px 0px 10%;
+	color:#333;
+	}
 .girl {
 	width:50%;
 	float:right;
@@ -1467,7 +1472,7 @@ img.alignright,
 
 .header-image .title-area {
 	padding: 25px 0;
-	width: 320px;
+	width: 310px;
 }
 
 .header-image .site-title {
@@ -1479,7 +1484,7 @@ img.alignright,
 	background-size: contain !important;
 	display: block;
 	float: left;
-	min-height: 70px;
+	min-height: 73px;
 	width: 100%;
 	border-bottom:none;
 }
@@ -2106,7 +2111,10 @@ p.entry-meta {
 	padding: 40px;
 	margin-bottom: 1px;
 }
-
+#text-3 {
+	padding:10px;
+	margin-bottom:40px;
+}
 
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
@@ -2114,7 +2122,7 @@ p.entry-meta {
 .footer-widgets .wrap {
 	background-color: #333;
 	clear: both;
-  	padding: 80px 14% 80px 14%;
+  	padding: 80px 9% 80px 9%;
 }
 
 .footer-widgets {
@@ -2200,9 +2208,6 @@ p.entry-meta {
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
-/*---------------------------------------------------------------------------------------------------- */
-
-/* # max 1320 */
 
 @media only screen and (max-width: 1320px) {
 
@@ -2236,8 +2241,6 @@ p.entry-meta {
 	}
 }
 
-/* # max 1200 */
-
 @media only screen and (max-width: 1200px) {
 
 	.nav-secondary,
@@ -2264,7 +2267,6 @@ p.entry-meta {
 	.author-box,
 
 	.flexible-widgets.widget-full .widget,
-	.footer-widgets .wrap,
 	.site-footer .wrap {
 		padding: 60px;
 	}
@@ -2310,13 +2312,8 @@ p.entry-meta {
     margin-right: 0;
   }
 
-  .footer-widgets .footer-widgets-4 {
-    clear: both;
-    float: none;
-    width: 50%;
-  }
 
-  .footer-widgets .footer-widgets-4 .widget-title {
+  .footer-widgets .widget-title {
     margin-top: 6%;
   }
 
@@ -2339,8 +2336,6 @@ p.entry-meta {
 	padding-top:2px;
 	}
 }
-
-/* # max 980 */
 
 @media only screen and (max-width: 980px) {
 
@@ -2557,8 +2552,6 @@ p.entry-meta {
    	 margin-right:0;
 	}
 }
-
-/* # max 768 */
 
 @media only screen and (max-width: 768px) {
 	.mobile {
@@ -2783,8 +2776,6 @@ p.entry-meta {
 
 }
 
-/* # max 600 */
-
 @media only screen and (max-width: 600px) {
 	.colors {
 	width:100%;
@@ -2832,7 +2823,7 @@ p.entry-meta {
 }
 
 
-/* # max 500 */
+
 
 @media only screen and (max-width: 500px) {
 	.woocommerce .related ul li.product, .woocommerce .related ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .upsells.products ul li.product, .woocommerce-page .upsells.products ul.products li.product {
@@ -3072,4 +3063,19 @@ Label the data
     display: none;
 	}
 
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    .header-image .site-title > a {
+        min-height: 73px;
+        width: 100%;
+        background: url('images/house-of-funk-logo-x2.png') no-repeat left top !important;
+        background-size: 310px 73px !important;
+    }
 }

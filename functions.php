@@ -80,8 +80,8 @@ unregister_sidebar( 'header-right' );
 //* Add support for custom header
 add_theme_support( 'custom-header', array(
 	'flex-height'     => true,
-	'width'           => 430,
-	'height'          => 78,
+	'width'           => 310,
+	'height'          => 73,
 	'header-selector' => '.site-title a',
 	'header-text'     => false,
 ) );
