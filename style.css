@@ -682,16 +682,16 @@ div.ppt {
 	}
 
 .cover-press {
-  position:relative;
-  width:29%;
-  margin:0px 2% 0px 2%;
-  float:left;
-  display:block;
-  text-align:center;
+    display: inline-block;
+    margin: 0px 2% 2% 2%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 28.5%;
 }
 
 .cover-press.dering {
-  padding-top:40px;
+  /*padding-top:40px;*/
 }
 
 .cover-press.theview {
@@ -699,19 +699,19 @@ div.ppt {
 }
 
 .cover-press.montclairfds {
-  padding-top:20px;
+  /*padding-top:20px;*/
 }
 
 .cover-press.montclair2 {
-  padding-top:20px;
+  /*padding-top:20px;*/
 }
 
 .cover-press.elledecor {
-  padding-top:20px;
+  /*padding-top:20px;*/
 }
 
 .cover-press.houzz {
-  padding-top:20px;
+  /*padding-top:20px;*/
 }
 
 .podcast {
@@ -2800,7 +2800,6 @@ p.entry-meta {
     display: inline-block;
     float: none;
     margin: 20px 2% 0px 2%;
-    vertical-align: top;
     width: 45%;
   }
 
