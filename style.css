@@ -2200,6 +2200,9 @@ p.entry-meta {
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
+/*---------------------------------------------------------------------------------------------------- */
+
+/* # max 1320 */
 
 @media only screen and (max-width: 1320px) {
 
@@ -2232,6 +2235,8 @@ p.entry-meta {
 	padding-top:2px;
 	}
 }
+
+/* # max 1200 */
 
 @media only screen and (max-width: 1200px) {
 
@@ -2334,6 +2339,8 @@ p.entry-meta {
 	padding-top:2px;
 	}
 }
+
+/* # max 980 */
 
 @media only screen and (max-width: 980px) {
 
@@ -2550,6 +2557,8 @@ p.entry-meta {
    	 margin-right:0;
 	}
 }
+
+/* # max 768 */
 
 @media only screen and (max-width: 768px) {
 	.mobile {
@@ -2774,6 +2783,8 @@ p.entry-meta {
 
 }
 
+/* # max 600 */
+
 @media only screen and (max-width: 600px) {
 	.colors {
 	width:100%;
@@ -2821,7 +2832,7 @@ p.entry-meta {
 }
 
 
-
+/* # max 500 */
 
 @media only screen and (max-width: 500px) {
 	.woocommerce .related ul li.product, .woocommerce .related ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .upsells.products ul li.product, .woocommerce-page .upsells.products ul.products li.product {
