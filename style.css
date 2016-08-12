@@ -1951,6 +1951,7 @@ img.alignright,
 }
 .port-thumbs {
   margin-top:-40px;
+  text-align: center;
 }
 .port-thumbs a {
     float: left;
@@ -2327,6 +2328,12 @@ p.entry-meta {
 	.archive.genesis-pro-portfolio .archive-pagination {
 		margin: 0 -60px;
 	}
+
+  .port-thumb-title {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 16px;
+  }
 
 	.footer-widgets .footer-widgets-1,
   .footer-widgets .footer-widgets-2,
@@ -2857,9 +2864,6 @@ p.entry-meta {
 	}
 }
 
-
-
-
 @media only screen and (max-width: 500px) {
 	.woocommerce .related ul li.product, .woocommerce .related ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .upsells.products ul li.product, .woocommerce-page .upsells.products ul.products li.product {
     width: 100% !important;
@@ -2882,6 +2886,11 @@ p.entry-meta {
     display: block;
     margin: 20px 0 0 0;
     width: 100%;
+  }
+
+  .cover-press.theview {
+    margin-top: 10px;
+    margin-bottom: -10px;
   }
 
   .cover-press img {
