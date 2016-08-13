@@ -2516,9 +2516,9 @@ p.entry-meta {
 
   .port-thumbs a {
     float: none;
-    margin-bottom: 5%;
+    margin-bottom: 2.5%;
     max-width: 170px;
-    width: 30%;
+    width: 31%;
     display: inline-block;
   }
 
@@ -2936,13 +2936,22 @@ p.entry-meta {
     margin: -15px 0 0 0;
   }
 
-/*  .port-thumbs a {
-    margin: 0 auto 20px auto !important;
-    width: 50%;
-    display: block;
+  .port-thumbs a {
+    max-width: none;
+    width: 48%;
   }
 
-*/
+  .port-thumbs a:nth-of-type(even) {
+    margin-right: 0;
+  }
+
+  .port-thumbs a:nth-of-type(odd) {
+    margin-right: 2.5%;
+  }
+
+
+
+
 /* Force table to not be like tables anymore */
 .woocommerce-page table.shop_table,
 .woocommerce-page table.shop_table thead,
