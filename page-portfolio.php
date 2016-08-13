@@ -13,7 +13,7 @@ add_action('genesis_after_content', 'hf_add_portfolio_thumbs');
 function hf_add_portfolio_thumbs() {
 ?>
     <div class="port-thumbs">
-
+        <!-- run in a-tags to defeat space in inline-block -->
         <a href="<?php echo get_site_url(); ?>/portfolio/barn-renovation"><div class="port-thumb">
             <img class="port-thumb-img" nopin="nopin" src="http://staging.houseoffunk.flywheelsites.com/wp-content/uploads/2016/07/glam-barn.jpg">
             <div class="port-thumb-title">
