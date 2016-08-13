@@ -671,12 +671,12 @@ div.ppt {
 	display:block;
 }
 
-.cover a,
+.cover,
 .cover-press a {
 	opacity:.6;
 }
 
-.cover a:hover
+.cover:hover,
 .cover-press a:hover {
 	opacity:1;
 }
