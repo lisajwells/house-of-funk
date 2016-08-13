@@ -2835,6 +2835,10 @@ p.entry-meta {
 	padding-top:2px;
 	}
 
+  .home-press {
+    width: 45%;
+  }
+
   .cover-press {
     display: inline-block;
     float: none;
