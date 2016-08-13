@@ -2369,6 +2369,10 @@ p.entry-meta {
 	width:18.5%;
 	padding-top:2px;
 	}
+	.transy-services {
+    	width: 90%;
+    	margin: 5%;
+	}
 }
 
 @media only screen and (max-width: 980px) {
@@ -2572,7 +2576,7 @@ p.entry-meta {
 	margin-left:0px;
 	}
 	.homeImage {
-	display:none;
+	
 	}
 	.halves {
 	width:100%;
@@ -2826,7 +2830,14 @@ p.entry-meta {
     margin: 20px 2% 0px 2%;
     width: 45%;
   }
-
+	#simple-social-icons-2 > div {
+    	display: inherit;
+    	margin: auto;
+    	width: 218px;
+	}
+	.footer-widgets-2 {
+	margin-top:40px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -2885,6 +2896,7 @@ p.entry-meta {
 	h2 {
 	text-align:center;
 	}
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -2925,8 +2937,8 @@ p.entry-meta {
   }
 
   .port-thumbs a {
-    margin: 0 auto 3% auto !important;
-    width: 100%;
+    margin: 0 auto 20px auto !important;
+    width: 50%;
     display: block;
   }
 
