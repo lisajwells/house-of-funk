@@ -661,7 +661,8 @@ div.ppt {
 	margin: 40px 9% 0px 9%;
 	text-align:center;
 	padding-top:80px;
-	}
+}
+
 .cover {
 	position:relative;
 	width:21%;
@@ -669,17 +670,20 @@ div.ppt {
 	float:left;
 	display:block;
 }
+
 .cover a,
 .cover-press a {
 	opacity:.6;
-	}
+}
+
 .cover a:hover
 .cover-press a:hover {
 	opacity:1;
-	}
+}
+
 .houzz a {
 	opacity: .9;
-	}
+}
 
 .cover-press {
     display: inline-block;
@@ -688,30 +692,6 @@ div.ppt {
     text-align: center;
     vertical-align: middle;
     width: 28.5%;
-}
-
-.cover-press.dering {
-  /*padding-top:40px;*/
-}
-
-.cover-press.theview {
-  margin-top:-10px;
-}
-
-.cover-press.montclairfds {
-  /*padding-top:20px;*/
-}
-
-.cover-press.montclair2 {
-  /*padding-top:20px;*/
-}
-
-.cover-press.elledecor {
-  /*padding-top:20px;*/
-}
-
-.cover-press.houzz {
-  /*padding-top:20px;*/
 }
 
 .podcast {
@@ -1965,6 +1945,10 @@ img.alignright,
   margin-right: 0;
 }
 
+.port-thumb-img {
+  display: block;
+}
+
 .port-thumb-title {
   background-color: #6b9ba3;
   color: #fff;
@@ -2946,7 +2930,7 @@ p.entry-meta {
   }
 
   .port-thumbs a:nth-of-type(odd) {
-    margin-right: 2.5%;
+    margin-right: 4%;
   }
 
 
