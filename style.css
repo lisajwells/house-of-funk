@@ -681,6 +681,37 @@ div.ppt {
 	opacity:1;
 }
 
+.home-press {
+    display: inline-block;
+    float: none;
+    margin: 2% 2% 2% 2%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.home-press.elledecor {
+  /*padding-top: 20px;*/
+}
+
+.home-press.theview {
+  margin-top:-5px;
+}
+
+.home-press.dering {
+  /*padding-top: 40px;*/
+}
+
+.home-press.houzz {
+  /*padding-top: 20px;*/
+}
+
+.home-press img {
+  display: block;
+  margin: 0 auto !important;
+}
+
 .houzz a {
 	opacity: .9;
 }
