@@ -2143,6 +2143,9 @@ p.entry-meta {
 	padding:10px;
 	margin-bottom:40px;
 }
+#text-3 p {
+  margin-bottom: 0;
+}
 
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
@@ -2389,6 +2392,28 @@ p.entry-meta {
 	.side-header.title-area {
 		width: 100%;
 	}
+
+  .content-sidebar .content {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .content-sidebar .sidebar {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+  }
+
+  #text-3 {
+    padding: 20px;
+  }
+
+  #text-3 img {
+    float: left;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    width: 50%;
+  }
 
 	.nav-secondary + .content-sidebar-wrap,
 	.site-inner,
