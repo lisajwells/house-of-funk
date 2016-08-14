@@ -2892,6 +2892,10 @@ p.entry-meta {
     width: 100%;
 	}
 
+  #text-3 img {
+    width: 40%;
+  }
+
   .portfolio-button {
     margin: 12px auto -5px auto;
   }
@@ -2978,8 +2982,9 @@ p.entry-meta {
     margin-right: 4%;
   }
 
-
-
+  #text-3 img {
+    width: 100%;
+  }
 
 /* Force table to not be like tables anymore */
 .woocommerce-page table.shop_table,
